@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100vh;
+    background-color:  #222E5A;
+    position: relative;
+}
+
+.home_content{
+    position: absolute;
+    left: 20%;
+    margin-top: 20px;
+}
+
+.home_content > a{
+    text-decoration: none;
+    font-size: 9.5rem;
+    font-weight: 800;
+    /* color: chartreuse; */
+    color: rgba(194, 211, 243, 0.808);
+    font-family: 'Fascinate', cursive;
+    letter-spacing: 7px;
+}
+
+.home_content > a:hover{
+    margin-left: 30%;
+    transform: scaleX(1.2);
+    color: lightgray;
+}
